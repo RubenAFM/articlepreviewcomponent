@@ -1,0 +1,260 @@
+/* general settings */
+
+:root {
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+}
+
+
+
+
+body {
+    background-color: var(--light-grayish-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    max-width: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    
+   
+    
+}
+
+/* drawer container */
+
+.drawer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.drawer__picture__container {
+    
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.drawer__picture__item {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* title - subtitle - figure michelle settings */   
+
+.title__subtitle__figure__container {
+    width: 100%;
+    padding: 1rem;
+}
+   
+   
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    padding: 1rem;    
+    margin: 0rem;
+    color: var(--very-dark-grayish-blue);
+}
+
+.subtitle {
+    padding: 0rem 1rem 0rem 1rem;
+    color: var(--desaturated-dark-blue);
+}
+
+/* michelle style */
+
+.michelle__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    max-width: 100%;
+    padding: 1rem 0rem 1rem 1rem;    
+   
+    
+}
+
+.michelle__figure__container {    
+    max-width: 10%;
+    margin: 0px;
+    padding: 0px;
+}
+    
+
+.michelle__figure__item {
+    max-width: 100%;
+   
+}
+
+.michelle__name__container {    
+    width: 100%;  
+}
+
+.michelle__name__container p:first-child {
+    font-weight: 700;
+    color: var(--very-dark-grayish-blue);
+}
+
+.michelle__name__container p:last-child {
+    color: var(--desaturated-dark-blue);
+}
+
+.michelle__container p {
+    margin: 0.2rem 0rem 0rem 1rem;       
+}
+
+
+
+.michelle__figure__item {
+    border-radius: 50%;
+}
+
+.share__button__container {
+    padding-top: 0.5rem;
+    margin: 0px;
+    padding-right: 2rem;
+    z-index: 1000;
+}
+.share__button__item {
+    background-color: var(--light-grayish-blue);
+    border-radius: 50%;
+    padding: 0.5rem;
+    
+}
+
+.tooltip__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--very-dark-grayish-blue);
+    width: 100%;
+    bottom: 0;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: absolute;
+    
+    
+}
+
+.tooltip__item {
+    padding: 0rem 1rem 0rem 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.tooltip__box__paragraph {
+    padding-bottom: 1rem;
+}
+
+
+
+.attribution {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--very-dark-grayish-blue);
+    border-radius: 10px;
+    color: #ffffff;
+    
+}
+
+.attribution a {
+    text-decoration: none;
+    color: violet;
+}
+
+
+
+
+@media (min-width: 767px ) {
+    main {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-height: 290px;
+        max-width: 800px;       
+    }
+
+    .drawer__picture__item  {
+        border-radius: 10px 0px 0px 10px;
+        
+    }
+
+    
+    .tooltip__box {
+        
+        display: none;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 250px;
+        background-color: var(--very-dark-grayish-blue);        
+        z-index: 500;
+        text-align: center;
+        padding: 15px 25px;
+        border-radius: 5px;
+        position: absolute;
+        right: -72px;
+        bottom: 100px;   
+    }
+    
+    
+    
+    
+    .tooltip__box::after {
+        content: "";
+        display: block;
+        border-top: 20px solid var(--very-dark-grayish-blue);
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        position: absolute;
+        bottom: -10px;
+    }
+    
+    
+    
+    .tooltip__box a {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .tooltip__box__paragraph {
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    */
+    
+
+
+   
+}
